@@ -7,9 +7,9 @@ module.exports = {
 }
 
 function balance() {
-  console.log('Account Balance:');
+  return 'Account Balance:\n';
 }
 
 function randomToCurrency(min, max) {
-  console.log(modTwo.toCurrency(modOne.getRandom(min, max)));
+  return modTwo.toCurrency(modOne.getRandom(min, max));
 }
